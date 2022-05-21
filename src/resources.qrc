@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rc/img/signal-16x16.png</file>
+        <file>rc/img/headphones-16x16.png</file>
+        <file alias="control_play">rc/img/control_play-16x16.png</file>
+        <file alias="control_pause">rc/img/control_pause-16x16.png</file>
+        <file>rc/img/sound_stereo-34x16.png</file>
+        <file>rc/img/gear-16x16.png</file>
+        <file>rc/img/next-16x16.png</file>
+        <file>rc/img/prev-16x16.png</file>
+        <file>rc/img/menu2gray-16x16.png</file>
+        <file>rc/img/sound_stereo2-32x16.png</file>
+        <file>rc/img/sound_mute-16x16.png</file>
+        <file>rc/img/sound_low-16x16.png</file>
+        <file>rc/img/scan_up_down_h-20x16.png</file>
+        <file>rc/img/scan_up_down_n-20x16.png</file>
+        <file>rc/img/sound_norm-16x16.png</file>
+        <file>rc/img/send-16x16.png</file>
+        <file>rc/img/exit-16x16.png</file>
+        <file>rc/img/exit2-16x16.png</file>
+        <file>rc/img/checked-16x16.png</file>
+        <file>rc/img/star_gray-16x16.png</file>
+        <file>rc/img/star_yellow-16x16.png</file>
+        <file>rc/img/unchecked-16x16.png</file>
+        <file>rc/playlist.json</file>
+        <file>rc/img/error-16x16.png</file>
+        <file>rc/img/close-16x16.png</file>
+    </qresource>
+</RCC>

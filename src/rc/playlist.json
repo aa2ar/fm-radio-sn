@@ -1,0 +1,10 @@
+{
+    [
+        {
+            "freq": 1001,
+            "name": "name",
+            "chk": true,
+            "fav": true
+        }
+    ]
+}

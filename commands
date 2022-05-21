@@ -1,0 +1,81 @@
+About control commands
+
+Serial port settings: 38400, 8N1, no flow control
+
+Format:
+>COMMAND\r\n
+<RESPONSE\r\n
+
+
+Commands:
+
+>AT+RET
+</***********************************/
+<VOL=15
+<FRE=952
+<SN_OFF
+<SN_THR=00
+<CH=17
+<CH_ALL=27
+<PLAY or PAUSE
+<KEY_CH_MODE
+<BANK_OFF
+<CAMPUS_OFF
+<Audio_mode: Stereo
+<AP MUTE
+<earphone_in
+<FM_RADIO_SN_V1.1
+<Thank you for using!
+</***********************************/
+Returns current state info
+
+
+>AT+FRE=NNN
+<FRE=NNN or ERR
+Set frequency to NN.N MHz
+
+>AT+VOLU
+<VOL=NN - new volume value
+Increase volume
+
+>AT+VOLD
+<VOL=NN - new volume value
+Decrease volume
+
+AT+VOL=[10..30]
+<VOL=NN - new volume value
+Set volume to NN; for this command 10=min, 30=max
+Actually volume range is 0..30
+
+>AT+PAUSE
+<PAUSE - muted
+<PLAY - unmuted
+Toggle mute
+
+>AT+BANK=NN
+Where NN is:
+00 - backlight off
+<BANK_OFF
+01 - backlight on
+<BANK_ON
+02 to infinity - set backlight delay to NN seconds
+<BANK=NNs
+
+>AT+SCAN
+Start scanning
+<SCAN - scanning started
+<SCAN RETURN: - channel found
+<FRE=1034 - frequency
+<CH=31 - channel number
+<CH_ALL=31 - channel count
+<SCAN OK - scanning finished
+
+>AT+SCANU - Scanning up
+>AT+SCAND - Scanning down
+<SCAN
+<SCANU
+<SCAN OK
+<FRE=901
+<CH=07
+<CH_ALL=28
+
